@@ -20,8 +20,8 @@ body *{
 }
 img{
   vertical-align: middle;
-  width: 100%;
-  hight: auto;
+  max-width: 100%;
+  height: auto;
 
 }
 /* 로고 */
@@ -33,7 +33,8 @@ img{
 .brand a{
   display: block;
   width: 51.5625%;
-  height: 32px;
+  min-width: 165px;
+  max-width: 280px;
 }
 @media screen and (min-width: 769px){
   .brand{
@@ -42,6 +43,5 @@ img{
   .brand a{
     width: 230px;
     height: 44px;
-  
-}
+  }
 }
